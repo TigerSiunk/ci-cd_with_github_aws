@@ -19,4 +19,4 @@ def fonction_retourne_int(integer):
     return "non"
 
 if __name__ == "__main__":
-    app.run()
+    application.run()
