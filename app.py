@@ -18,5 +18,6 @@ def fonction_retourne_int(integer):
         return 10
     return "non"
 
+
 if __name__ == "__main__":
     application.run()
