@@ -1,17 +1,22 @@
 from flask import Flask
 
-app = Flask(__name__)
+application = Flask(__name__)
 
 
-@app.route("/")
+@application.route("/")
 def index():
     return "Hello World !"
 
 
-@app.route("/attaque")
+@application.route("/attaque")
 def attaque():
     return "Attaque effectuée"
 
+
+def fonction_retourne_int(integer):
+    if type(integer) == int:
+        return 10
+    return "non"
 
 if __name__ == "__main__":
     app.run()
