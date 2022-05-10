@@ -1,4 +1,4 @@
-from app import fonction_retourne_int
+from application import fonction_retourne_int
 
 
 def test_index():
